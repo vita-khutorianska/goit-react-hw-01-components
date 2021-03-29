@@ -30,12 +30,12 @@ function App() {
       <h2 className="title">Statistic</h2>
       <Statistic stats={statisticData} />
 
+      <h2 className="title">Friends List</h2>
+      <FriendsList friends={friends} />
+
       <h2 className="title">Transaction History</h2>
 
       <TransactionHistory items={transactions} />
-
-      <h2 className="title">Friends List</h2>
-      <FriendsList friends={friends} />
     </div>
   );
 }
