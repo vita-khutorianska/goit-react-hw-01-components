@@ -3,7 +3,6 @@ import styles from './FriendsList.module.css';
 
 const FriendsList = ({ friends }) => (
   <ul className={styles.friend__list}>
-    {' '}
     {friends.map(({ avatar, name, id, isOnline }) => (
       <li className={styles.friend__item} key={id}>
         <span className={isOnline ? styles.onLine : styles.offLine}></span>
